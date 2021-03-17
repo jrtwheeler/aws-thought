@@ -10,6 +10,7 @@ AWS.config.update({
 const dynamodb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
 
 const params = {
+    //Table name
     TableName : "Thoughts",
     KeySchema: [       
         { AttributeName: "username", KeyType: "HASH"},  //Partition key
