@@ -1,3 +1,4 @@
+//Import the aws package
 const AWS = require("aws-sdk");
 
 // config points to local instance,
